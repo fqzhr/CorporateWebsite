@@ -1,0 +1,146 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF+8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Where2Go</title>
+</head>
+
+<body bgcolor="#362740" >
+
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#home">
+            <h1><span>W</span>here <span>2</span> <span>G</span>o</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="index.html" data-after="Home">HOME</a></li>
+            <li><a href="fnp.html" data-after="place">FOOD&PLACE</a></li>
+			<li><a href="gallery.html" data-after="gallery">GALLERY</a></li>
+            <li><a href="contact.html" data-after="Contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+<div class="slideshow-container">
+
+<table border="0" width="85%" cellpadding="15" cellspacing="0" align="center" >
+	<tr>
+	<td> 
+	<br> </br>
+	<br> </br>
+	</td>
+	</tr>
+	<tr>
+		<td>
+<div class="mySlides fade">
+  <img src=".\img\c1.jpg" style= height="300" width="300">
+</div>
+
+<div class="mySlides fade">
+  <img src=".\img\c2.jpg" style= height="300" width="300">
+</div>
+
+<div class="mySlides fade">
+  <img src=".\img\c4.jpg" style= height="300" width="300">
+</div>
+
+<div class="mySlides fade">
+  <img src=".\img\c5.jpg" style= height="300" width="300">
+</div>
+
+<div class="mySlides fade">
+  <img src=".\img\c6.jpg" style= height="300" width="300">
+</div>
+
+<div class="mySlides fade">
+  <img src=".\img\c7.jpg" style= height="300" width="300">
+</div>
+
+<div class="mySlides fade">
+  <img src=".\img\w1.jpg" style= height="300" width="300">
+</div>
+
+<div class="mySlides fade">
+  <img src=".\img\w2.jpg" style= height="300" width="300">
+</div>
+
+<div class="mySlides fade">
+  <img src=".\img\w3.jpg" style= height="300" width="300">
+</div>
+
+<div class="mySlides fade">
+  <img src=".\img\b3.jpg" style= height="300" width="300">
+</div>
+
+<div class="mySlides fade">
+  <img src=".\img\b2.jpg" style= height="300" width="300">
+</div>
+
+<div class="mySlides fade">
+  <img src=".\img\b1.jpg" style= height="300" width="300">
+</div>
+
+<div class="mySlides fade">
+  <img src=".\img\biggy.jpg" style= height="300" width="300">
+</div>
+
+<div class="mySlides fade">
+  <img src=".\img\p1.jpg" style= height="300" width="300">
+</div>
+
+<div class="mySlides fade">
+  <img src=".\img\p2.jpg" style= height="300" width="300">
+</div>
+
+<div class="mySlides fade">
+  <img src=".\img\p3.jpg" style= height="300" width="300">
+</div>
+
+<div class="mySlides fade">
+  <img src=".\img\p4.jpg" style= height="300" width="300">
+</div>
+
+<div class="mySlides fade">
+  <img src=".\img\p5.jpg" style= height="300" width="300">
+</div>
+
+<div class="mySlides fade">
+  <img src=".\img\p6.jpg" style= height="300" width="300">
+</div>
+
+</div>
+</td>
+</tr>
+</table>
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); 
+}
+
+</script>
+
+
+</body>
+ </html>
+ 
